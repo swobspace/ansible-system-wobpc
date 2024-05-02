@@ -4,6 +4,7 @@
   vars:
     git_project_dir: /home/wob/Projects
     git_project_list:
+      - url: git@github.com:swobspace/adwhois.git
       - url: git@github.com:swobspace/rails-playground.git
       - url: git@github.com:swobspace/mirco.git
       - url: git@github.com:swobspace/titracka.git
