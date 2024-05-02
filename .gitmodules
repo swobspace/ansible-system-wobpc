@@ -4,3 +4,6 @@
 [submodule "roles/ruby"]
 	path = roles/ruby
 	url = git@mintra3.marienhaus.de:ansible/roles/ruby
+[submodule "roles/git"]
+	path = roles/git
+	url = git@github.com:swobspace/ansible-role-git.git

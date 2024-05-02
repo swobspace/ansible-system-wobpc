@@ -1,0 +1,10 @@
+---
+- hosts: wobpc
+  become: true
+  connection: local
+
+  vars:
+    ruby_version: 3.2.4
+
+  roles:
+    - ruby
