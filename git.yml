@@ -10,19 +10,21 @@
       - url: git@github.com:swobspace/boskop.git
       - url: git@github.com:swobspace/wobauth.git
       - url: git@github.com:swobspace/wobapphelpers.git
-      - url: git@github.com:swobspace/digicam.git
-      - url: git@github.com:swobspace/wobmire.git
+      # - url: git@github.com:swobspace/digicam.git
+      # - url: git@github.com:swobspace/wobmire.git
       - url: git@github.com:swobspace/adwhois.git
-      # - url: git@mintra3.marienhaus.de:mit/medv.git
-      #   dir: mit/medv
-      # - url: git@mintra3.marienhaus.de:mit/common.git
-      #   dir: mit/common
-      # - url: git@mintra3.marienhaus.de:mit/users.git
-      #   dir: mit/users
-      # - url: git@mintra3.marienhaus.de:mit/tutorial.git
-      #   dir: mit/tutorial
-      # - url: git@mintra3.marienhaus.de:mit/dbadmin.git
-      #   dir: mit/dbadmin
+      - url: git@mintra3.marienhaus.de:mit/medv.git
+        dir: mit/medv
+      - url: git@mintra3.marienhaus.de:mit/common.git
+        dir: mit/common
+      - url: git@mintra3.marienhaus.de:mit/users.git
+        dir: mit/users
+      - url: git@mintra3.marienhaus.de:mit/tutorials.git
+        dir: mit/tutorials
+      - url: git@mintra3.marienhaus.de:mit/dbadmin.git
+        dir: mit/dbadmin
+      - url: git@github.com:swobspace/cocard.git
+        dir: gematik/cocard
 
   roles:
     - git
