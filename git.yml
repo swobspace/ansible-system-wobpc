@@ -26,6 +26,8 @@
         dir: mit/dbadmin
       - url: git@github.com:swobspace/cocard.git
         dir: gematik/cocard
+      - url: git@mintra3.marienhaus.de:projects/soapconnect.git
+        dir: gematik/soapconnect
 
   roles:
     - git
