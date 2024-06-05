@@ -31,3 +31,24 @@
 
   roles:
     - git
+
+- hosts: wobpc
+  become: false
+  connection: local
+  tags:
+    - ansible
+
+  vars:
+    git_project_dir: /home/wob/ansible
+    git_project_list:
+      - url: git@mintra3.marienhaus.de:ansible/systems/medv.git
+        dir: systems/medv
+      - url: git@mintra3.marienhaus.de:ansible/systems/offline.git
+        dir: systems/offline
+      - url: git@mintra3.marienhaus.de:ansible/systems/intranet.git
+        dir: systems/intranet
+      - url: git@mintra3.marienhaus.de:ansible/systems/keycloak.git
+        dir: systems/keycloak
+
+  roles:
+    - git
