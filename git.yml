@@ -10,10 +10,9 @@
       - url: git@github.com:swobspace/titracka.git
       - url: git@github.com:swobspace/boskop.git
       - url: git@github.com:swobspace/wobauth.git
+      - url: git@github.com:swobspace/wobaduser.git
       - url: git@github.com:swobspace/wobapphelpers.git
-      # - url: git@github.com:swobspace/digicam.git
-      # - url: git@github.com:swobspace/wobmire.git
-      - url: git@github.com:swobspace/adwhois.git
+      - url: git@github.com:swobspace/cups-pdf-container.git
       - url: git@mintra3.marienhaus.de:mit/medv.git
         dir: mit/medv
       - url: git@mintra3.marienhaus.de:mit/common.git
