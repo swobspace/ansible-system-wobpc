@@ -48,6 +48,8 @@
         dir: systems/intranet
       - url: git@mintra3.marienhaus.de:ansible/systems/keycloak.git
         dir: systems/keycloak
+      - url: git@mintra3.marienhaus.de:ansible/systems/chemocompile.git
+        dir: systems/chemocompile
 
   roles:
     - git
