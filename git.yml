@@ -50,6 +50,32 @@
         dir: systems/keycloak
       - url: git@mintra3.marienhaus.de:ansible/systems/chemocompile.git
         dir: systems/chemocompile
+      - url: git@mintra3.marienhaus.de:ansible/roles/railsapp
+        dir: roles/railsapp
+      - url: git@mintra3.marienhaus.de:ansible/roles/ruby
+        dir: roles/ruby
+      - url: git@mintra3.marienhaus.de:ansible/roles/checkmk-agent
+        dir: roles/checkmk-agent
+      - url: git@mintra3.marienhaus.de:ansible/roles/apache
+        dir: roles/apache
+      - url: git@mintra3.marienhaus.de:ansible/roles/mh-ca-certs
+        dir: roles/mh-ca-certs
+
+
+  roles:
+    - git
+
+- hosts: wobpc
+  become: false
+  connection: local
+  tags:
+    - eli
+
+  vars:
+    git_project_dir: /home/wob
+    git_project_list:
+      - url: elix01:/data/git/home/wob/doc.git
+        dir: doc
 
   roles:
     - git
