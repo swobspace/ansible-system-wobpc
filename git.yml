@@ -7,6 +7,7 @@
       - url: git@github.com:swobspace/adwhois.git
       - url: git@github.com:swobspace/rails-playground.git
       - url: git@github.com:swobspace/mirco.git
+      - url: git@github.com:swobspace/wobmire.git
       - url: git@github.com:swobspace/titracka.git
       - url: git@github.com:swobspace/boskop.git
       - url: git@github.com:swobspace/wobauth.git
