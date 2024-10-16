@@ -13,7 +13,8 @@
       - url: git@github.com:swobspace/wobauth.git
       - url: git@github.com:swobspace/wobaduser.git
       - url: git@github.com:swobspace/wobapphelpers.git
-      - url: git@github.com:swobspace/cups-pdf-container.git
+      # - url: git@github.com:swobspace/cups-pdf-container.git
+
       - url: git@mintra3.marienhaus.de:mit/medv.git
         dir: mit/medv
       - url: git@mintra3.marienhaus.de:mit/common.git
@@ -24,12 +25,17 @@
         dir: mit/tutorials
       - url: git@mintra3.marienhaus.de:mit/dbadmin.git
         dir: mit/dbadmin
+
       - url: git@github.com:swobspace/cocard.git
         dir: gematik/cocard
       - url: git@mintra3.marienhaus.de:projects/soapconnect.git
         dir: gematik/soapconnect
+
       - url: git@mintra3.marienhaus.de:websites/mintra2
       - url: git@mintra3.marienhaus.de:websites/mintra3
+      - url: git@mintra3.marienhaus.de:webapps/beschlussdb
+      - url: git@mintra3.marienhaus.de:webapps/ivmessy
+      - url: git@mintra3.marienhaus.de:webapps/daisy
 
   roles:
     - git
@@ -53,6 +59,14 @@
         dir: systems/keycloak
       - url: git@mintra3.marienhaus.de:ansible/systems/chemocompile.git
         dir: systems/chemocompile
+
+      - url: git@github.com:swobspace/ansible-role-system
+        dir: roles/system
+      - url: git@github.com:swobspace/ansible-role-podman
+        dir: roles/podman
+      - url: git@github.com:swobspace/ansible-role-git
+        dir: roles/git
+
       - url: git@mintra3.marienhaus.de:ansible/roles/railsapp
         dir: roles/railsapp
       - url: git@mintra3.marienhaus.de:ansible/roles/ruby
