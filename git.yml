@@ -31,6 +31,8 @@
         dir: gematik/cocard
       - url: git@mintra3.marienhaus.de:projects/soapconnect.git
         dir: gematik/soapconnect
+      - url: git@github.com:swobspace/kocoboot.git
+        dir: gematik/kocoboot
 
       - url: git@mintra3.marienhaus.de:websites/mintra2
       - url: git@mintra3.marienhaus.de:websites/mintra3
