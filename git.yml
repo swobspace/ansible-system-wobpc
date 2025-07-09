@@ -25,6 +25,8 @@
         dir: mit/tutorials
       - url: git@mintra3.marienhaus.de:mit/dbadmin.git
         dir: mit/dbadmin
+      - url: git@mintra3.marienhaus.de:mit/public.git
+        dir: mit/public
       - url: git@mintra3.marienhaus.de:doc/hspfire-book.git
 
       - url: git@github.com:swobspace/cocard.git
