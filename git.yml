@@ -37,8 +37,6 @@
         dir: gematik/ti-gateway
       - url: git@github.com:swobspace/kocoboot.git
         dir: gematik/kocoboot
-      - url: git@mintra3.marienhaus.de:projects/ti-gateway.git
-        dir: gematik/ti-gateway
 
       - url: git@mintra3.marienhaus.de:websites/mintra2
       - url: git@mintra3.marienhaus.de:websites/mintra3
